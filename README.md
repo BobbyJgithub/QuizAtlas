@@ -1,4 +1,4 @@
-![Quiz Atlas Logo](README_images/quiz_atlas_logo.png)
+![Quiz Atlas Logo](README_images/quizatlas_logo.png)
 
 ## Quiz Atlas
 
@@ -26,7 +26,7 @@ Quiz Atlas is a trivia game that offers users three exciting game modes. Test yo
 There are currently no known issues related to running or the code of the application.
 
 ### Overview of the Code:
-![Quiz Atlas Logo](README_images/quiz_atlas_screens.png)
+![Quiz Atlas Logo](README_images/quizatlas_screens.png)
 Quiz Atlas utilizes a clean and efficient code structure. Here's a brief overview:
 
 - **Launcher Activity**: This activity loads all the necessary data for the app using the Data Loader model and the Player model. Data is loaded from the CSV into the Country model and then into the list of countries for efficiency.
