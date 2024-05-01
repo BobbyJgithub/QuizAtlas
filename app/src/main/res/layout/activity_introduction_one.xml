@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" >
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="332dp"
+        android:layout_height="332dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/intro_earth" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/inter_extrabold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Travel the World with Trivia"
+        android:textColor="@color/primary_black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:lineSpacingExtra="10dp"
+        android:text="Challenge yourself with three exciting trivia
+game modes that will put your knowledge of
+countries’ flags and language to the test!"
+        android:textColor="@color/primary_black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/intro_next" />
+
+    <TextView
+        android:id="@+id/skip"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="Skip" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

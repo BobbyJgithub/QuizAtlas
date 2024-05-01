@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizAtlas</string>
+    <string name="title">QuizAtlas</string>
+    <string name="historic_clue">Historic Clue</string>
+    <string name="culture_clue">Culture Clue</string>
+    <string name="landmark_clue">Landmark Clue</string>
+    <string name="make_guess">Make Guess</string>
+</resources>

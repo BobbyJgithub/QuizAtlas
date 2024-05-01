@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/main_earth_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/main_earth_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Qa"
+        tools:targetApi="31">
+
+        <activity android:name=".activities.LaunchActivity"
+            android:label="Launch Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="Main Activity">
+        </activity>
+        <activity android:name=".activities.CountryGuesserActivity"
+            android:label="Country Guesser Activity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".activities.FlagGuesserActivity"
+            android:label="Flag Guesser Activity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".activities.LanguageGuesserActivity"
+            android:label="Language Guesser Activity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".activities.AchievementsActivity"
+            android:label="Achievements Activity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".activities.HelpMenuActivity"
+            android:label="Help Menu Activity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".activities.CorrectGuessActivity"
+            android:label="Correct Guess Activity"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity android:name=".activities.OnboardingActivity"
+            android:label="Onboarding Activity">
+        </activity>
+    </application>
+
+</manifest>
