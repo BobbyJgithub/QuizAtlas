@@ -3,6 +3,7 @@
 ## Quiz Atlas
 
 Quiz Atlas is a trivia game that offers users three exciting game modes. Test your knowledge by guessing countries, flags, or languages based on unique clues provided. Each game mode presents players with one distinctive clue along with additional hints for assistance. For instance, in the country guessing mode, users are presented with landmark images, while in the flag mode, they encounter flag images. Moreover, in the language mode, an audio sample challenges players. Keep track of your progress through the Achievements menu, where you can visualize all the countries, flags, and languages encountered during the game, along with stats on correct and incorrect guesses.
+
 ![Quiz Atlas Logo](README_images/quizatlas_screens.png)
 
 ### Contributors:
@@ -45,4 +46,7 @@ Quiz Atlas utilizes a clean and efficient code structure. Here's a brief overvie
 
 - **Help Menu**: Displays game information and screen help for user assistance.
 
-Feel free to explore the code and contribute to enhancing Quiz Atlas!
+Feel free to explore the code!
+Thank You for using Quiz Atlas!
+
+```
