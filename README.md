@@ -48,5 +48,3 @@ Quiz Atlas utilizes a clean and efficient code structure. Here's a brief overvie
 
 Feel free to explore the code!
 Thank You for using Quiz Atlas!
-
-```
